@@ -27,7 +27,7 @@ public:
 	SimpleString		operator= (const SimpleString& other);
 
 	char				*asCharString () const;
-	int					size() const;
+	size_t					size() const;
 
 private:
 	char				*buffer;
