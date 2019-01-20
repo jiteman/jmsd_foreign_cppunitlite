@@ -13,6 +13,8 @@
 #define SIMPLE_STRING
 
 
+#include <stddef.h> // size_t
+
 
 class SimpleString
 {
